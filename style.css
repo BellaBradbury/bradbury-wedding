@@ -1,0 +1,28 @@
+/* 
+COLOR PALLETTE
+blue: #0259bd
+purple: #c5b0eb
+dk-grey: #1f2021
+white: #fcfcfc 
+*/
+
+* {
+    box-sizing: border-box;
+    color: #1f2021;
+}
+
+html {
+    text-align: center;
+    background-color: #0259bd;
+}
+
+body {
+    background-color: #fcfcfc;
+    margin: 10%;
+    border-radius: 15%;
+    filter: drop-shadow(10px 10px 5px black);
+}
+
+#nav li {
+
+}

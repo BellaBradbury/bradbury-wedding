@@ -7,7 +7,7 @@ white: #fcfcfc
 
 FONTS
 font-family: "Sono", monospace;
-font-family: "Bilbo Swash Caps", cursive;
+font-family: "Bilbo Swash Caps", cursive; --- unused
 font-family: "Bad Script", cursive;
 */
 
@@ -19,26 +19,59 @@ font-family: "Bad Script", cursive;
 }
 
 html {
-    text-align: center;
+    text-align: left;
     background-color: #0259bd;
 }
 
 body {
     background-color: #fcfcfc;
     margin: 10%;
-    border-radius: 15%;
+    border-radius: 25px;
     filter: drop-shadow(10px 10px 5px black);
 }
 
 /* TYPOGRAPHY */
-h1 {
+h1, h2, .home-sm {
     font-family: "Bad Script", cursive;
-}
-h2 {
-    font-family: "Bilbo Swash Caps", cursive;
+    text-align: center;
 }
 
-/* BUTTONS */
-#nav li {
+/* LINKS */
+a {
+    text-decoration: none;
+    margin: 10px;
+    width: fit-content;
+    border: 2px solid #0259bd;
+    background-color: #0259bd;
+    color: #fcfcfc;
+    border-radius: 25px;
+}
 
+/* NAVIGATION */
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav li {
+    max-width: 25%;
+    border: 2px solid #0259bd;
+    color: #0259bd;
+    border-radius: 25px;
+}
+
+/* REGISTRY */
+#reg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.reg-card {
+    max-width: 45%;
+    border: 1px solid #c5b0eb;
 }

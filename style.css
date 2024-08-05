@@ -4,11 +4,18 @@ blue: #0259bd
 purple: #c5b0eb
 dk-grey: #1f2021
 white: #fcfcfc 
+
+FONTS
+font-family: "Sono", monospace;
+font-family: "Bilbo Swash Caps", cursive;
+font-family: "Bad Script", cursive;
 */
 
+/* GENERAL */
 * {
     box-sizing: border-box;
     color: #1f2021;
+    font-family: 'Sono', monospace;
 }
 
 html {
@@ -23,6 +30,15 @@ body {
     filter: drop-shadow(10px 10px 5px black);
 }
 
+/* TYPOGRAPHY */
+h1 {
+    font-family: "Bad Script", cursive;
+}
+h2 {
+    font-family: "Bilbo Swash Caps", cursive;
+}
+
+/* BUTTONS */
 #nav li {
 
 }

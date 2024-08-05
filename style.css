@@ -45,6 +45,7 @@ a {
     background-color: #0259bd;
     color: #fcfcfc;
     border-radius: 25px;
+    font-size: large;
 }
 
 /* NAVIGATION */
@@ -56,11 +57,19 @@ a {
     align-items: center;
     justify-content: space-around;
 }
-.nav li {
+.nav li a {
     max-width: 25%;
     border: 2px solid #0259bd;
     color: #0259bd;
     border-radius: 25px;
+}
+
+/* HOME  */
+.zack {
+    justify-self: left;
+}
+.bella {
+    justify-self: right;
 }
 
 /* REGISTRY */

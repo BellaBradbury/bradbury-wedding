@@ -107,11 +107,11 @@ a {
 .bella {
     align-self: self-end;
 }
-.zack:nth-child(1), .bella:nth-child(3) {
+.name-l {
     align-self: self-start;
     text-align: left;
 }
-.zack:nth-child(3), .bella:nth-child(1) {
+.name-r {
     align-self: self-end;
     text-align: right;
 }

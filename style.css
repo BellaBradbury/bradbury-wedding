@@ -16,7 +16,6 @@ font-family: "Bad Script", cursive;
     box-sizing: border-box;
     color: #1f2021;
     font-family: 'Sono', monospace;
-    padding: 25px;
 }
 
 html {
@@ -67,7 +66,7 @@ a {
 }
 
 /* NAVIGATION */
-.nav {
+.home-nav {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -75,12 +74,12 @@ a {
     align-items: center;
     justify-content: space-around;
 }
-.nav li {
+.home-nav li {
     width: 80%;
     color: #0259bd;
     background-color: #fcfcfc;
 }
-.nav li a {
+.home-nav li a {
     width: 100%;
     border: 2px solid #0259bd;
     border-radius: 25px;
@@ -91,17 +90,19 @@ a {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    align-items: center;
+    padding: 10px;
 }
 .home-sm {
-    font-size: small;
-    font-weight: 400;
+    font-size: medium;
+    font-weight: 600;
 }
 .zack {
     text-align: left;
+    font-size: large;
 }
 .bella {
     text-align: right;
+    font-size: large;
 }
 
 /* REGISTRY */

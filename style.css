@@ -72,13 +72,15 @@ a {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    padding: 0;
 }
 #home-nav li {
     width: 100%;
 }
 #home-nav li a {
     width: 80%;
+    display: block;
     border: 2px solid #0259bd;
     border-radius: 25px;
     color: #0259bd;
@@ -92,14 +94,12 @@ a {
     flex-direction: column;
     padding: 10px;
 }
-.home-sm {
-    font-size: medium;
-    font-weight: 600;
-}
 .zack, .bella {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 75%;
+    font-size: large;
 }
 .zack {
     align-self: self-start;
@@ -117,6 +117,12 @@ a {
 }
 .home-names h1 {
     font-size: large;
+}
+.home-sm h1 {
+    font-size: medium;
+    text-align: center;
+    font-weight: 500;
+    margin: -20px;
 }
 
 /* REGISTRY */

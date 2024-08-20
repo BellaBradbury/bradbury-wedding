@@ -101,16 +101,21 @@ a {
     flex-direction: column;
     justify-content: center;
 }
-.zack:first-child, .bella:last-child {
-    justify-self: left;
+.zack {
+    align-self: self-start;
+}
+.bella {
+    align-self: self-end;
+}
+.zack:nth-child(1), .bella:nth-child(3) {
+    align-self: self-start;
     text-align: left;
 }
-.zack:last-child, .bella:first-child {
-    justify-self: right;
+.zack:nth-child(3), .bella:nth-child(1) {
+    align-self: self-end;
     text-align: right;
 }
 .home-names h1 {
-    text-align: left;
     font-size: large;
 }
 

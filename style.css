@@ -48,11 +48,11 @@ footer div {
 }
 
 /* TYPOGRAPHY */
-h1, h2, .home-sm, bold {
+h1, h2, .home-sm {
     font-family: "Bad Script", cursive;
     text-align: center;
 }
-bold {
+h2.hotel {
     font-size: x-large;
     font-weight: bold;
 }
@@ -72,7 +72,7 @@ a {
 }
 
 /* NAVIGATION */
-#home-nav, .nav {
+.nav {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -82,17 +82,19 @@ a {
     padding: 0;
     text-align: center;
 }
-#home-nav li {
+.nav li {
     width: 100%;
 }
-#home-nav li a {
+.nav li a {
     width: 80%;
     display: block;
     border: 2px solid #0259bd;
     border-radius: 25px;
     color: #0259bd;
     background-color: #fcfcfc;
+    text-align: center;
 }
+
 
 /* HOME  */
 .home-names {
@@ -122,10 +124,10 @@ a {
     align-self: self-end;
     text-align: right;
 }
-.home-names h1 {
+h1.home-names {
     font-size: large;
 }
-.home-sm {
+h1.home-sm {
     font-size: medium;
     text-align: center;
     font-weight: 500;

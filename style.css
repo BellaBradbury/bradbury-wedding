@@ -107,22 +107,25 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 75%;
     font-size: large;
 }
 .zack {
     align-self: self-start;
+    width: 75%;
 }
 .bella {
     align-self: self-end;
+    width: 45%;
 }
 .name-l {
     align-self: self-start;
     text-align: left;
+    font-size: large;
 }
 .name-r {
     align-self: self-end;
     text-align: right;
+    font-size: large;
 }
 h1.home-names {
     font-size: large;

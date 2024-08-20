@@ -43,8 +43,10 @@ footer {
 }
 footer div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 /* TYPOGRAPHY */
@@ -140,12 +142,13 @@ h1.home-sm {
 /* REGISTRY */
 #reg {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
 }
 .reg-card {
-    max-width: 45%;
-    border: 1px solid #c5b0eb;
+    max-width: 80%;
+    margin: 2% auto;
+    border: 2px solid #c5b0eb;
 }

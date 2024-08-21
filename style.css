@@ -99,6 +99,9 @@ a {
 
 
 /* HOME  */
+.overlay {
+    background-color: rgba(252, 252, 252, 0.25);
+}
 .home-names {
     display: flex;
     flex-wrap: nowrap;
@@ -106,6 +109,8 @@ a {
     padding: 10px;
     background-image: url(bw_home.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px 25px 0 0;
 }
 .zack, .bella {
     display: flex;

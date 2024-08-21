@@ -104,6 +104,8 @@ a {
     flex-wrap: nowrap;
     flex-direction: column;
     padding: 10px;
+    background-image: url(bw_home.jpg);
+    background-repeat: no-repeat;
 }
 .zack, .bella {
     display: flex;
@@ -151,4 +153,8 @@ h1.home-sm {
     max-width: 80%;
     margin: 2% auto;
     border: 2px solid #c5b0eb;
+}
+.reg-card ul {
+    list-style: none;
+    padding: 3px;
 }

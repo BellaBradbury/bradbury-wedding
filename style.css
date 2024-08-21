@@ -99,17 +99,18 @@ a {
 
 
 /* HOME  */
-.overlay {
-    background-color: rgba(252, 252, 252, 0.25);
+.img-cot {
+    background-image: url(bw_home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px 25px 0 0;
 }
 .home-names {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     padding: 10px;
-    background-image: url(bw_home.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgba(252, 252, 252, 0.25);
     border-radius: 25px 25px 0 0;
 }
 .zack, .bella {
